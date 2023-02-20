@@ -1,7 +1,8 @@
 {
   "name": "react-cloud-doc-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend to store the quill data to mongoDB",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "devStart": "nodemon server.js"
@@ -10,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
     "mongoose": "^5.12.4",
     "socket.io": "^4.6.0"
   },
